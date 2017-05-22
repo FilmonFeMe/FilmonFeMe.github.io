@@ -7,16 +7,17 @@
 		<title> My Hobby</title>
 		<style>
 		* {
-		margin: 0;
-		padding: 0;
+		/*margin: 0;
+		padding: 0;*/
 		box-sizing: border-box;
 		}
 		body{
-			
+
 			background-color: #EDF0F5;
 			font-family: "Times New Roman", Georgia, Serif;
 		}
 		#header{
+			
 			background-color:#191919;
 			height:15vh;
 		}
@@ -45,7 +46,7 @@
 			#table1{
 		table-layout: fixed;
 		border-width: 1.0em 15px 15px;
-		margin: 60px 0 0 10vw;
+		margin: 60px 0 60px 10vw;
 		border-style: solid;
 		border-color: rgb(255, 255, 255);
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -83,7 +84,6 @@
 			text-align: center;
 		}
 		tr.rows td  {
-		/*background-color:white;*/
 		border:1px solid #000;
 		text-align: center;
 		font-weight: bold;
@@ -207,9 +207,9 @@
 		</main>
 		<br>
 		<br>
-		<form action="success.html" method="post" style="margin:0 auto auto 30vh;">
+		<form action="success.html" method="post" style="margin:2vh auto 5vh auto;">
 			<h3>Contact us</h3>
-			<fieldset style="width:350px;">
+			<fieldset style="width:400px;">
 				<p><label>Full name: </label>
 				<input type="text" name="sur-name" placeholder="Sur name" style="height: 25px;">&nbsp;<input type="text" name="first-name" placeholder="First name" style="height: 25px;"></p>
 				<p><label>Email: </label>
@@ -224,9 +224,10 @@
 			<option value="other">Others</option>
 		</select></p>
 		<p><legend>Your message</legend>
-		<textarea name="message" rows="10" cols="55">
+		<textarea name="message" rows="10" cols="65">
 		
 	</textarea></p>
+	<button type="submit">Submit</button>
 </fieldset>
 </form>
 <footer>
