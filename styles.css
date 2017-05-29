@@ -1,5 +1,4 @@
 * {
-
 box-sizing: border-box;
 }
 body{
@@ -9,9 +8,11 @@ background-color: #EDF0F5;
 font-family: "Times New Roman", Georgia, Serif;
 }
 #header{
-
-width: 100%;
-overflow: hidden;
+position: relative;
+right: 0;
+top: 0;
+left: 0;
+padding: 1rem;
 background-color:#191919;
 height:15vh;
 }
@@ -20,7 +21,6 @@ color:white;
 padding-top: 4vh;
 text-align :center;
 font-size: 5vh;
-
 }
 #main-content{
 max-width: 1030px;
@@ -31,17 +31,17 @@ background-color: #FFFFFF;
 overflow: hidden;
 }
 #bike{
-	width:100%;
+width:100%;
 }
-
 footer{
-background-color: #FFFFFF;
 height:10vh;
-overflow: hidden;
-
-}
-footer p{
-padding:2.0vh 40vw ;
+position: relative;
+right: 0;
+bottom: 0;
+left: 0;
+padding: 1rem;
+background-color: #FFFFFF;
+text-align: center;
 }
 #table1{
 table-layout: fixed;
@@ -60,7 +60,6 @@ width: 330;
 border-right: 1px solid black;
 border-top: 3px solid black;
 border-bottom: 2px solid black;
-
 }
 .top-center{
 color:black;
@@ -70,7 +69,6 @@ border-right: 1px solid black;
 border-top: 3px solid black;
 border-bottom: 2px solid black;
 width: 330;
-
 }
 .top-right{
 color:black;
@@ -79,7 +77,6 @@ border-top: 3px solid black;
 border-left: 1px solid black;
 border-bottom: 2px solid black;
 width: 330;
-
 }
 td{
 width:20vw;
@@ -92,13 +89,10 @@ font-weight: bold;
 color: #990000;
 font-size: 1em;
 text-decoration:none;
-
 }
 tr.rows:nth-child(even) td{
 background-color: #f1f1f1;
-
 }
 tr.rows:nth-child(odd) td{
 background-color: #D4F7EB;
-
 }
