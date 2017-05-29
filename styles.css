@@ -8,37 +8,30 @@ background-color: #EDF0F5;
 font-family: "Times New Roman", Georgia, Serif;
 }
 #header{
-position: relative;
-right: 0;
-top: 0;
-left: 0;
-padding: 1rem;
+display:flex;
 background-color:#191919;
 height:15vh;
 }
-h1 {
+#header h1 {
 color:white;
-padding-top: 4vh;
-text-align :center;
 font-size: 5vh;
+margin:auto auto;
 }
 #main-content{
-max-width: 1030px;
-padding-left: 5vw !important;
-padding-right: 5vw !important;
-margin:1vh auto;
+display:flex;
 background-color: #FFFFFF;
-overflow: hidden;
+max-width:1030px;
+margin:2vh auto;
+padding-left: 2vw;
 }
 #bike{
-width:100%;
+width:75%;
 }
 footer{
 height:10vh;
-position: relative;
-right: 0;
-bottom: 0;
-left: 0;
+display:flex;
+flex-direction:row;
+margin: 0;
 padding: 1rem;
 background-color: #FFFFFF;
 text-align: center;
@@ -46,8 +39,6 @@ text-align: center;
 #table1{
 table-layout: fixed;
 border-width: 1.0em 15px 15px;
-margin-left: auto;
-margin-right: auto;
 margin: 60px auto !important;
 border-style: solid;
 border-color: rgb(255, 255, 255);
@@ -95,4 +86,39 @@ background-color: #f1f1f1;
 }
 tr.rows:nth-child(odd) td{
 background-color: #D4F7EB;
+}
+form{
+margin:7vh auto 5vh auto;
+}
+fieldset {
+min-width:400px;
+}
+.name{
+height: 25px;
+border-radius: 2px;
+}
+#email{
+width:267px;
+height: 25px;
+margin-left: 25px;
+border-radius: 2px;
+}
+#phone{
+width:267px;
+height: 25px;
+margin-left: 25px;
+border-radius: 2px;
+}
+#subject{
+width:267px;
+height: 25px;
+margin-left: 18px;
+}
+#textarea{
+border-radius: 2px;
+}
+#submit-button{
+width: 75px;
+height: 25px;
+border-radius: 2px;
 }
