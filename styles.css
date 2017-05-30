@@ -120,9 +120,10 @@ background-color: #D4F7EB;
 }
 form{
 margin:7vh auto 5vh auto;
+border-radius: 7px;
 }
 fieldset {
-min-width:400px;
+min-width:300px;
 }
 .name{
 height: 25px;
@@ -159,4 +160,7 @@ display: none;
 @media (max-width: 960px) {
 nav ul     { display: none; }
 nav select { display: inline-block; }
+fieldset {
+min-width:245px;
+}
 }
