@@ -1,0 +1,154 @@
+* {
+box-sizing: border-box;
+}
+body{
+margin:0;
+padding: 0;
+background-color: #EDF0F5;
+font-family: "Times New Roman", Georgia, Serif;
+}
+#header{
+display:flex;
+background-color:#191919;
+height:10vh;
+}
+#header h1 {
+color:white;
+font-size: 5vh;
+margin:auto auto;
+}
+.nav{
+background-color:#191919;
+}
+.nav> ul {
+list-style-type: none;
+max-width: 200px;
+margin: 0.1vh;
+padding: 0;
+overflow: hidden;
+}
+.nav> ul li a{
+color:white;
+font-size: 1em;
+display: block;
+padding: 8px;
+text-decoration: none;
+border-right:2px solid gray;
+}
+.nav> ul li {
+float: left;
+}
+#main-content{
+display:flex;
+background-color: #FFFFFF;
+max-width:1030px;
+margin:2vh auto;
+padding-left: 2vw;
+}
+#bike{
+width:75%;
+}
+footer{
+height:10vh;
+display:flex;
+flex-direction:row;
+margin: 0;
+padding: 1rem;
+background-color: #FFFFFF;
+}
+footer>p{
+margin:auto auto;
+}
+#table1{
+table-layout: fixed;
+border-width: 1.0em 15px 15px;
+margin: 60px auto !important;
+border-style: solid;
+border-color: rgb(255, 255, 255);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.top-left{
+color:black;
+padding: 5px;
+width: 330;
+border-right: 1px solid black;
+border-top: 3px solid black;
+border-bottom: 2px solid black;
+}
+.top-center{
+color:black;
+padding: 5px;
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-top: 3px solid black;
+border-bottom: 2px solid black;
+width: 330;
+}
+.top-right{
+color:black;
+padding: 5px;
+border-top: 3px solid black;
+border-left: 1px solid black;
+border-bottom: 2px solid black;
+width: 330;
+}
+td{
+width:20vw;
+text-align: center;
+}
+tr.rows td  {
+border:1px solid #000;
+text-align: center;
+font-weight: bold;
+color: #990000;
+font-size: 1em;
+text-decoration:none;
+}
+tr.rows:nth-child(even) td{
+background-color: #f1f1f1;
+}
+tr.rows:nth-child(odd) td{
+background-color: #D4F7EB;
+}
+form{
+margin:7vh auto 5vh auto;
+}
+fieldset {
+min-width:400px;
+}
+.name{
+height: 25px;
+border-radius: 2px;
+}
+#email{
+width:267px;
+height: 25px;
+margin-left: 25px;
+border-radius: 2px;
+}
+#phone{
+width:267px;
+height: 25px;
+margin-left: 25px;
+border-radius: 2px;
+}
+#subject{
+width:267px;
+height: 25px;
+margin-left: 18px;
+}
+#textarea{
+border-radius: 2px;
+}
+#submit-button{
+width: 75px;
+height: 25px;
+border-radius: 2px;
+}
+nav select {
+  display: none;
+}
+@media (max-width: 960px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
+}
