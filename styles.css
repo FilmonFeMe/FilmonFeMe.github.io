@@ -24,7 +24,7 @@ background-color:#3a3a3a;
 list-style-type: none;
 max-width: 200px;
 margin: 0.0vh;
-margin-left:11.5vw;
+margin-left:14.1vw;
 padding: 0;
 overflow: hidden;
 }
@@ -37,7 +37,7 @@ text-decoration: none;
 border-right:2px solid gray;
 }
 #home-nav{
-	border-left:2px solid gray;
+border-left:2px solid gray;
 }
 .nav> ul li {
 float: left;
@@ -47,10 +47,14 @@ display:flex;
 background-color: #FFFFFF;
 max-width:1030px;
 margin:2vh auto;
-padding-left: 2vw;
+padding:0 5vw;
 }
 #bike{
-width:75%;
+max-width:75%;
+margin-left:8vw;
+}
+#photo-credit{
+margin-left: 8vw;
 }
 footer{
 height:10vh;
@@ -150,9 +154,9 @@ height: 25px;
 border-radius: 2px;
 }
 nav select {
-  display: none;
+display: none;
 }
 @media (max-width: 960px) {
-  nav ul     { display: none; }
-  nav select { display: inline-block; }
+nav ul     { display: none; }
+nav select { display: inline-block; }
 }
