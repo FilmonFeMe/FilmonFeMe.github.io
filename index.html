@@ -4,110 +4,26 @@
 		<meta charset="UTF-8">
 		<meta name="author" content="Filmon Mengisteab">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="styles.css">
 		<title> My Hobby</title>
-		<style>
-		* {
-			
-		box-sizing: border-box;
-		}
-		body{
-			background-color: #EDF0F5;
-			font-family: "Times New Roman", Georgia, Serif;
-		}
-		#header{
-			margin:0 !important;
-			padding: 0 !important;
-			overflow: hidden;
-			background-color:#191919;
-			height:15vh;
-		}
-			h1 {
-			color:white;
-			padding-top: 4vh;
-			text-align :center;
-			font-size: 5vh;
-			
-			}
-			#main-content{
-				padding-left: 5vw !important;
-				height: auto;
-				margin-left: auto;
-			}
-			main{
-				width:70vw;
-			}
-			
-			footer{
-			background-color: #FFFFFF;
-			height:10vh;
-			}
-			footer p{
-				padding:2.0vh 40vw ;
-			}
-			#table1{
-		table-layout: fixed;
-		border-width: 1.0em 15px 15px;
-		margin: 60px 0 60px 10vw;
-		border-style: solid;
-		border-color: rgb(255, 255, 255);
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		}
-		.top-left{
-		color:black;
-		padding: 5px;
-		width: 330;
-		border-right: 1px solid black;
-		border-top: 3px solid black;
-		border-bottom: 2px solid black;
-		
-		}
-		.top-center{
-		color:black;
-		padding: 5px;
-		border-left: 1px solid black;
-		border-right: 1px solid black;
-		border-top: 3px solid black;
-		border-bottom: 2px solid black;
-		width: 330;
-		
-		}
-		.top-right{
-		color:black;
-		padding: 5px;
-		border-top: 3px solid black;
-		border-left: 1px solid black;
-		border-bottom: 2px solid black;
-		width: 330;
-		
-		}
-		td{
-			width:20vw;
-			text-align: center;
-		}
-		tr.rows td  {
-		border:1px solid #000;
-		text-align: center;
-		font-weight: bold;
-		color: #990000;
-		font-size: 1em;
-		text-decoration:none;
-		
-		}
-		tr.rows:nth-child(even) td{
-		
-		background-color: #f1f1f1;
-		
-		}
-		tr.rows:nth-child(odd) td{
-		background-color: #D4F7EB;
-		
-		}
-		</style>
 	</head>
 	<body>
 		<header id="header">
 			<h1>My Hobby</h1>
 		</header>
+		<nav class="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<select>
+				<option value="" selected="selected">Select</option>
+				<option value="index.html">Home</option>
+				<option value="about.html">About</option>
+				<option value="contact.html">Contact</option>
+			</select>
+		</nav>
 		<div id ="main-content">
 			<main>
 			<br>
@@ -204,37 +120,15 @@
 				<li>Giro d'Italia</li>
 				<li>Vuelta a España</li>
 			</ol>
-			<img src="images/bike.jpg" alt="bike">
-			<p>Photo credit: <a href="https://unsplash.com/">Usplash</a> </p>
+			<img id="bike" src="images/bike.jpg" alt="bike">
+			<p>Photo credit: <a href="https://unsplash.com/" target="_blank">Unsplash</a> </p>
 			</main>
 			<br>
 			<br>
-			<form action="success.html" method="post" style="margin:2vh auto 5vh auto;">
-				<h3>Contact us</h3>
-				<fieldset style="width:400px;">
-					<p><label>Full name: </label>
-					<input type="text" name="sur-name" placeholder="Sur name" style="height: 25px;">&nbsp;<input type="text" name="first-name" placeholder="First name" style="height: 25px;"></p>
-					<p><label>Email: </label>
-				<input type="email" name="email" placeholder="someone@someone.com" style="width:260px; height: 25px;margin-left: 25px;" ></p>
-				<p><label>Phone: </label>
-			<input type="number" name="phone" placeholder="xxxx-xxx-xxxx" style="width:260px; height: 25px; margin-left: 25px;" ></p>
-			<p><label>Subject: </label>
-			<select name="subject" style="width:260px; height: 25px; margin-left: 25px;">
-				<option value="complaint">Complaint</option>
-				<option value="order">Order</option>
-				<option value="promotion">Promotion</option>
-				<option value="other">Others</option>
-			</select></p>
-			<p><legend>Your message</legend>
-			<textarea name="message" rows="10" cols="65">
 			
-		</textarea></p>
-		<button type="submit">Submit</button>
-	</fieldset>
-</form>
-</div>
-<footer>
-<p>&copy; Filmon,2017</p>
-</footer>
-</body>
+		</div>
+		<footer>
+			<p>&copy; Filmon,2017</p>
+		</footer>
+	</body>
 </html>

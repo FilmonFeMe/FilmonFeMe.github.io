@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Filmon Mengisteab">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<title> Contact </title>
+	</head>
+	<body>
+		<header id="header">
+			<h1>Contact us</h1>
+		</header>
+		<nav class="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<select>
+				<option value="" selected="selected">Select</option>
+				<option value="index.html">Home</option>
+				<option value="about.html">About</option>
+				<option value="contact.html">Contact</option>
+			</select>
+		</nav>
+		<div id ="main-content">
+			<form action="success.html" method="post">
+				<h3>Contact us</h3>
+				<fieldset>
+					<p><label>Full name: </label>
+					<input class="name" type="text" name="sur-name" placeholder="First name" >&nbsp;<input class="name" type="text" name="first-name" placeholder="Sur name"></p>
+					<p><label>Email: </label>
+				<input id="email" type="email" name="email" placeholder="someone@someone.com"  ></p>
+				<p><label>Phone: </label>
+				<input id="phone" type="number" name="phone" placeholder="xxxx-xxx-xxxx"></p>
+				<p><label>Subject: </label>
+				<select id="subject" name="subject">
+					<option value="complaint">Complaint</option>
+					<option value="order">Order</option>
+					<option value="promotion">Promotion</option>
+					<option value="other">Others</option>
+				</select></p>
+				<p><legend>Your message</legend>
+				<textarea id="textarea" name="message" rows="11" cols="54">
+				
+			</textarea></p>
+			<button id="submit-button" type="submit">Submit</button>
+		</fieldset>
+	</form>
+</div>
+<footer>
+	<p>Copyright &copy; Filmon,2017</p>
+</footer>
+
+</body>
+</html>
