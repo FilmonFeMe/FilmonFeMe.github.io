@@ -18,12 +18,13 @@ font-size: 5vh;
 margin:auto auto;
 }
 .nav{
-background-color:#191919;
+background-color:#3a3a3a;
 }
 .nav> ul {
 list-style-type: none;
 max-width: 200px;
-margin: 0.1vh;
+margin: 0.0vh;
+margin-left:11.5vw;
 padding: 0;
 overflow: hidden;
 }
@@ -34,6 +35,9 @@ display: block;
 padding: 8px;
 text-decoration: none;
 border-right:2px solid gray;
+}
+#home-nav{
+	border-left:2px solid gray;
 }
 .nav> ul li {
 float: left;
