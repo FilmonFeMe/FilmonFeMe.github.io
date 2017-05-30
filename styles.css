@@ -42,6 +42,11 @@ border-left:2px solid gray;
 .nav> ul li {
 float: left;
 }
+.nav> ul li a:hover {
+color: white;
+background-color:black;
+border-bottom: 3px solid yellow;
+}
 #main-content{
 display:flex;
 background-color: #FFFFFF;
